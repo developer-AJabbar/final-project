@@ -528,35 +528,7 @@ if st.session_state.rules is not None and not st.session_state.rules.empty:
                 href = f'<a href="data:file/html;base64,{b64}" download="rules_network.html">Download Network (HTML)</a>'
                 st.markdown(href, unsafe_allow_html=True)
 
-# Contact section
-st.markdown("""
-    <div class="contact-section">
-        <h3 class="contact-title">💌 Contact the Developer</h3>
-        <div class="contact-grid">
-            <div class="contact-card">
-                <div class="contact-icon">📧</div>
-                <h4>Email</h4>
-                <a href="mailto:jabbarakhtarazad@gmail.com" class="contact-link">jabbarakhtarazad@gmail.com</a>
-            </div>
-            <div class="contact-card">
-                <div class="contact-icon">📱</div>
-                <h4>Phone/WhatsApp</h4>
-                <a href="tel:+923418118915" class="contact-link">+92 341 8118915</a>
-            </div>
-            <div class="contact-card">
-                <div class="contact-icon">🌐</div>
-                <h4>Portfolio</h4>
-                <a href="#" class="contact-link">Coming Soon</a>
-            </div>
-            <div class="contact-card">
-                <div class="contact-icon">💼</div>
-                <h4>LinkedIn</h4>
-                <a href="https://www.linkedin.com/in/abdul-jabbar-akhtar-azad" class="contact-link" target="_blank" rel="noopener noreferrer">Connect with me</a>
-            </div>
-        </div>
-        <p class="contact-text">Feel free to reach out for custom data solutions, collaborations, or just to say hello!</p>
-    </div>
-""", unsafe_allow_html=True)
+
 
 # Close main container
 st.markdown("</div>", unsafe_allow_html=True)
